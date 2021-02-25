@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name:  nspod
+  labels:
+    env : dev
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nsservices
+  labels:
+    env : dev
